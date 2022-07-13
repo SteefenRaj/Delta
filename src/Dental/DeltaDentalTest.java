@@ -49,7 +49,7 @@ public class DeltaDentalTest {
 		Files.copy(src, des);
 		
 		String itemAdded = driver.findElement(By.xpath("//div[@id='attachDisplayAddBaseAlert']")).getText();
-		System.out.println(itemAdded);
+		System.out.println("Message : "+itemAdded);
 		
 
 	}
